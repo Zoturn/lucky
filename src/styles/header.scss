@@ -1,0 +1,46 @@
+.header {
+  background-color: $header-bg;
+  .logo_menu_lang {
+    box-sizing: border-box;
+    padding: 14px 40px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    .menu_lang {
+      display: flex;
+      .menu {
+        a {
+          color: $text-color;
+          text-decoration: none;
+          margin-left: 17px;
+          &:hover {
+            color: $text-hover;
+          }
+          &.active {
+            color: $header-text-active;
+          }
+        }
+      }
+      .lang {
+        margin-left: 35px;
+        label {
+          margin-left: 6px;
+          cursor: pointer;
+          &:hover {
+            color: $text-hover;
+          }
+          &.active {
+            color: $header-text-active;
+            cursor: default;
+          }
+          input {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+.main_stats {
+  background-color: $main-component-stats-bg;
+  .stats_nav {
+    max-width: 1180px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    border-bottom: 1px solid $separator;
+    label {
+      color: $main-component-stats-nav-element-text;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 0 31px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      text-transform: uppercase;
+      input {
+        display: none;
+      }
+      &:hover {
+        color: $text-hover;
+      }
+      &.active {
+        padding-top: 4px;
+        box-sizing: border-box;
+        color: $main-component-stats-nav-element-active;
+        border-bottom: 3px solid $main-component-stats-nav-element-active-border;
+      }
+    }
+  }
+  .stats-table {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto 59px;
+    border-collapse: collapse;
+    tr {
+      height: 44px;
+      width: 100%;
+      &:nth-child(2n){
+        background-color: $main-component-stats-table-row-2n-bg;
+      }
+      th {
+        opacity: 0.5;
+        vertical-align: middle;
+        text-align: left;font-weight: normal;
+        text-transform: uppercase;
+        &:first-child {
+          padding-left: 20px;
+          width: 153px;
+        }
+        &:nth-child(2){
+          width: 164px;
+        }
+        &:nth-child(3){
+          width: 164px;
+        }
+        &:nth-child(4){
+          width: 185px;
+        }
+        &:nth-child(5){
+          width: 134px;
+        }
+        &:nth-child(6){
+          width: 150px;
+        }
+        &:last-child {
+          min-width: 90px;
+        }
+      }
+      td {
+        opacity: 0.95;
+        vertical-align: middle;
+        font-weight: normal;
+        &:first-child {
+          padding-left: 20px;
+        }
+        &.stats_bet {
+          opacity: 1;
+          font-weight: 600;
+        }
+        &.stats_profit {
+          opacity: 1;
+          font-weight: 600;
+          color: $main-component-stats-table-profit-minus;
+          &.plus {
+            color: $main-component-stats-table-profit-plus;
+          }
+        }
+      }
+    }
+  }
+  .stats_info {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid $separator;
+    .stats_info_item {
+      text-align: center;
+      max-width: 340px;
+      p {
+        opacity: 0.75;
+        font-weight: normal;
+        line-height: 20px;
+        margin-bottom: 11px;
+      }
+      .learn_more {
+        color: $text-hover;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &:nth-child(2) {
+        margin: 0 20px;
+      }
+    }
+  }
+}

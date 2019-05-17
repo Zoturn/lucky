@@ -1,0 +1,17 @@
+
+.main {
+  position: relative;
+  background: url(../static/img/clover-background.svg) center;
+
+//MAIN_COMPONENT_HEADER
+
+  @import "main_component_header";
+
+//MAIN_COMPONENT_CONTENT
+
+  @import "main_component_content_choose_game";
+
+ //MAIN_COMPONENT_STATS
+
+  @import "main_component_stats";
+}

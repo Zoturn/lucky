@@ -1,0 +1,50 @@
+@import "colors";
+@import "header";
+@import "main_component/main_component";
+@import "footer";
+@import "flip_coin";
+@import "media/general_media";
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: $text-color;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+h4 {
+  font-size: 15px;
+  margin: 18px 0 10px;
+}
+
+.secondary_button {
+  width: 180px;
+  height: 44px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary-button-bg;
+  color: $secondary-button-text;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:hover {
+    background-color: $secondary-button-hover;
+  }
+}

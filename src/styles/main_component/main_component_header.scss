@@ -1,0 +1,18 @@
+.header_stats {
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $header-stats-bg;
+
+  .header_stats_item {
+    margin: 0 11px;
+    color: $header-text-active;
+
+    span {
+      color: $text-hover;
+      margin-left: 2px;
+    }
+  }
+}

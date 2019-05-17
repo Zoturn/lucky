@@ -1,0 +1,109 @@
+@media screen and (max-width: 767px) {
+
+  .header {
+    position: relative;
+    z-index: 2;
+    .logo_menu_lang {
+      padding: 14px 10px;
+      height: 52px;
+
+      >a {
+        position: relative;
+        z-index: 1;
+      }
+
+      .menu_lang {
+        flex: 1 auto;
+        justify-content: space-between;
+        align-items: center;
+        height: 52px;
+        transition: 0.5s;
+
+        .menu_button {
+          width: 24px;
+          height: 24px;
+          opacity: 0.75;
+          position: static;
+          margin-left: 10px;
+          right: 80%;
+
+          .line {
+            width: 20px;
+            height: 2px;
+            background-color: $menu-button;
+            position: absolute;
+            transform: rotate(0);
+            margin-top: 7px;
+            transition: 0.5s;
+            &:last-child {
+              margin-top: 15px;
+            }
+          }
+        }
+
+        &.open {
+          position: absolute;
+          width: 100vw;
+          height: 100vh;
+          background-color: $header-bg;
+          flex-direction: column;
+          top: 0;
+          left: 0;
+          justify-content: center;
+          align-items: flex-start;
+          transition: 1s;
+
+          .menu {
+            &.mobile {
+              display: flex;
+              flex-direction: column;
+            }
+          }
+
+          .lang {
+            margin-top: 32px;
+          }
+
+          .menu_button {
+            position: absolute;
+            transition: 1s;
+            right: 20px;
+            top: 13px;
+
+            .line {
+              transform: rotate(45deg);
+              margin-top: 11px;
+              transition: 1s;
+
+              &:last-child {
+                transform: rotate(-45deg);
+                margin-top: 11px;
+              }
+            }
+          }
+        }
+
+        .menu {
+          a {
+            font-size: 17px;
+            margin-left: 40px;
+            margin-bottom: 38px;
+          }
+
+          &.mobile {
+            display: none;
+          }
+        }
+
+        .lang {
+          margin-left: 20px;
+
+          label {
+            margin-left: 20px;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}

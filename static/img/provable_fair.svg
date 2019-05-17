@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="48px" viewBox="0 0 64 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>About - Provable Fair - Small</title>
+    <desc>Created with Sketch.</desc>
+    <g id="About---Provable-Fair---Small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <polygon id="Fill-1" points="0 48 64 48 64 0 0 0"></polygon>
+            <g id="Group-8" transform="translate(2.000000, 0.000000)" fill="#FFFFFF">
+                <path d="M30,3 C31.103,3 32,3.897 32,5 C32,6.103 31.103,7 30,7 C28.897,7 28,6.103 28,5 C28,3.897 28.897,3 30,3 Z M31.5,9.746 C33.047,9.256 34.256,8.047 34.746,6.5 L49,6.5 L49,3.5 L34.746,3.5 C34.105,1.477 32.235,0 30,0 C27.765,0 25.895,1.477 25.254,3.5 L11,3.5 L11,6.5 L25.254,6.5 C25.744,8.047 26.953,9.256 28.5,9.746 L28.5,45 L11,45 L11,48 L49,48 L49,45 L31.5,45 L31.5,9.746 Z" id="Fill-2"></path>
+                <path d="M1.749,31 L12,13.916 L22.251,31 L1.749,31 Z M24,31 L12,11 L0,31 C0,35.418 5.373,39 12,39 C18.627,39 24,35.418 24,31 Z" id="Fill-4"></path>
+                <path d="M37.749,31 L48,13.916 L58.251,31 L37.749,31 Z M48,11 L36,31 C36,35.418 41.373,39 48,39 C54.627,39 60,35.418 60,31 L48,11 Z" id="Fill-6"></path>
+            </g>
+        </g>
+    </g>
+</svg>

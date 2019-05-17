@@ -1,0 +1,41 @@
+@import "max_1100/main_component_content_choose_game_1100";
+@import "max_767/header_375";
+@import "max_767/main_component/main_component_375";
+@import "max_767/footer_375";
+
+#app {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+h4 {
+  font-size: 15px;
+  margin: 18px 0 10px;
+}
+
+.secondary_button {
+  width: 180px;
+  height: 44px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary-button-bg;
+  color: $secondary-button-text;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:hover {
+    background-color: $secondary-button-hover;
+  }
+}

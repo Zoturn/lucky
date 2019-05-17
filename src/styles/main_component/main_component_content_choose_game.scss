@@ -1,0 +1,72 @@
+.main_content {
+  &.choose_game {
+    p {
+      width: 535px;
+      font-size: 15px;
+      font-weight: normal;
+      line-height: 22px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .secondary_button {
+      margin: 30px auto 0;
+    }
+
+    .games_list {
+      display: flex;
+      justify-content: center;
+      padding: 80px 0 60px;
+      a {
+        text-decoration: none;
+        color: $text-color;
+      }
+
+      .game {
+        box-sizing: border-box;
+        width: 380px;
+        height: 128px;
+        padding: 0 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 4px;
+        background-color: $main-component-game-bg;
+        margin: 0 10px;
+        cursor: pointer;
+        overflow: hidden;
+
+        span {
+          font-size: 20px;
+          font-weight: 600;
+        }
+
+        img {
+          height: 96px;
+        }
+
+        &.flip_a_coin {
+          padding-right: 47px;
+        }
+
+        &.dice_roll {
+          padding-right: 23px;
+        }
+
+        &.big_wheel {
+          padding-right: 0;
+
+          img {
+            height: 192px;
+            margin-right: -53px;
+          }
+        }
+
+        &:hover {
+          box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+          background-color: $main-component-game-hover;
+        }
+      }
+    }
+  }
+}

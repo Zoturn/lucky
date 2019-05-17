@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+
+  .header_stats {
+    height: 36px;
+    padding: 0 20px;
+
+    .header_stats_item {
+      text-align: center;
+    }
+
+    .slick-prev, .slick-next {
+      background-color: unset;
+      border: none;
+      text-align: left;
+      height: 16px;
+      overflow: hidden;
+      outline: 0;
+
+      &:before {
+        content: url(../static/img/arrow-right.svg);
+      }
+    }
+
+    .slick-prev {
+      transform: rotate(180deg);
+    }
+  }
+}

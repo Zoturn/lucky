@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px) {
+
+  .main_stats {
+    background-color: $main-component-stats-bg;
+
+    .stats_nav {
+      max-width: 100%;
+      margin: 0 auto 20px;
+      display: flex;
+      justify-content: start;
+      height: 52px;
+      overflow: scroll;
+
+      label {
+        font-size: 13px;
+        padding: 0 15px;
+        display: flex;
+        white-space: nowrap;
+      }
+    }
+
+    .stats-table {
+      max-width: 100%;
+      margin: 0 auto 40px;
+    }
+
+    .stats_info {
+      max-width: 100%;
+      padding: 20px;
+      height: auto;
+      flex-wrap: wrap;
+
+      .stats_info_item {
+        max-width: 100%;
+        margin: 40px 0;
+      }
+    }
+  }
+}
