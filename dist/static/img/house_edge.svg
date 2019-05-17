@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>About - House Edge - Small</title>
+    <desc>Created with Sketch.</desc>
+    <g id="About---House-Edge---Small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <polygon id="Fill-1" points="0 48 48 48 48 0 0 0"></polygon>
+            <g id="Group-8" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+                <path d="M9,0 C4.029,0 0,4.029 0,9 C0,13.971 4.029,18 9,18 C13.971,18 18,13.971 18,9 C18,4.029 13.971,0 9,0 M9,3 C12.309,3 15,5.691 15,9 C15,12.309 12.309,15 9,15 C5.691,15 3,12.309 3,9 C3,5.691 5.691,3 9,3" id="Fill-2"></path>
+                <path d="M31,22 C26.029,22 22,26.029 22,31 C22,35.971 26.029,40 31,40 C35.971,40 40,35.971 40,31 C40,26.029 35.971,22 31,22 M31,25 C34.309,25 37,27.691 37,31 C37,34.309 34.309,37 31,37 C27.691,37 25,34.309 25,31 C25,27.691 27.691,25 31,25" id="Fill-4"></path>
+                <polygon id="Fill-6" points="7.1289 36.9878 4.8709 35.0118 32.8709 3.0118 35.1289 4.9878"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
